@@ -43,7 +43,7 @@ Routes Table
 
 Screenshots
 
-1. POST /api/register` (201 Created)
+1. POST /api/register (201 Created)
 <img width="1158" height="750" alt="image" src="https://github.com/user-attachments/assets/a33ce3d2-5a0c-46d9-8a3b-1280b115c81e" />
 
 2. POST /api/login (200 OK)
@@ -72,6 +72,7 @@ Screenshots
 
 10. DELETE /api/products/{id} (204 No Content)
 <img width="1156" height="744" alt="image" src="https://github.com/user-attachments/assets/e597915a-695f-4cc9-98ca-a177a5d38e66" />
+
 
 
 Explanation: Why does DELETE return 204 and not 200?
