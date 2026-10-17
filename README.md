@@ -29,16 +29,17 @@ Setup Steps
 - php artisan serve
 
 Routes Table
-| HTTP Verb | Path               | Description              | Requires Token? |
-| POST      | /api/register      | Register a new user      | No              |
-| POST      | /api/login         | Log in an existing user  | No  	          |
-| POST      | /api/logout        | Log out and revoke token | Yes             |
-| GET       | /api/me            | Get authenticated user   | Yes             |
-| GET       | /api/products      | List all products        | Yes             |
-| POST      | /api/products      | Create a new product     | Yes             |
-| GET       | /api/products/{id} | Show a single product    | Yes             |
-| PUT       | /api/products/{id} | Update a product         | Yes             |
-| DELETE    | /api/products/{id} | Delete a product         | Yes             |
+| HTTP Verb | Path | Description | Requires Token? |
+| :--- | :--- | :--- | :--- |
+| POST | /api/register | Register a new user | No |
+| POST | /api/login | Log in an existing user | No |
+| POST | /api/logout | Log out and revoke token | Yes |
+| GET | /api/me | Get authenticated user | Yes |
+| GET | /api/products | List all products | Yes |
+| POST | /api/products | Create a new product | Yes |
+| GET | /api/products/{id} | Show a single product | Yes |
+| PUT | /api/products/{id} | Update a product | Yes |
+| DELETE | /api/products/{id} | Delete a product | Yes |
 
 Screenshots
 
