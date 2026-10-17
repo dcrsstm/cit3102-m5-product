@@ -1,9 +1,6 @@
 cit3102-m5-product
 
-Hello, Sir Kurt! I completed the activity individually because I'm currently sick for a week due to my allergies and had difficulty 
-coordinating with a partner. I understand that this activity was supposed to be done in pairs, and I sincerely apologize for not
-following that instruction. I also want to be honest that I used AI as a guide to help me understand and complete the activity. 
-I still did my best despite not feeling well, and I hope for your kind understanding and consideration. Thank you po
+Hello, Sir Kurt! I completed the activity individually because I'm currently sick for a week due to my allergies and had difficulty coordinating with a partner. I understand that this activity was supposed to be done in pairs, and I sincerely apologize for not following that instruction. I also want to be honest that I used AI as a guide to help me understand and complete the activity. I still did my best despite not feeling well, and I hope for your kind understanding and consideration. Thank you po
 
 Project Title: Laravel Product API
 
@@ -78,6 +75,4 @@ Screenshots
 
 Explanation: Why does DELETE return 204 and not 200?
 
-The HTTP 204 No Content status code indicates that the server successfully processed the request, but there is no additional 
-content to return in the response body. Since the resource has been deleted, returning an empty body with a 204 status is 
-standard practice for REST APIs.
+The HTTP 204 No Content status code means the server successfully processed a request. It intentionally returns an empty response body because there is no extra data to send back. This status is commonly used when a resource has been successfully deleted. Returning an empty body with this status code is standard practice for REST APIs.
