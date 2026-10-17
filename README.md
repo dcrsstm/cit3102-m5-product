@@ -5,7 +5,9 @@ Hello, Sir Kurt! I completed the activity individually because I'm currently sic
 Project Title: Laravel Product API
 
 Member: Danille Christian F. Crisostomo
+
 Section: IT3E
+
 Resource: Product
 
 Setup Steps
